@@ -39,9 +39,14 @@ public class uMarket {
      */
     public <T extends Thing> void printThings(Class<T> clazz){
         /*
+        // для индексации товара вводим индекс
         int index = 1;
+
+        // проходим в цикле по каждому товару
         for (var thing : things) {
+            // проверяем товар коллекции thing является ли он типом thing или его наследником
             if(clazz.isInstance(thing)){
+                // проверяем является ли товар едой, если да то выводим в консоль описание продовольственного товара
                 if(Food.class.isAssignableFrom(thing.getClass())){
                     System.out.printf("[%d] %s (Белки: %s Жиры: %s Углеводы: %s)\n",
                             index++,

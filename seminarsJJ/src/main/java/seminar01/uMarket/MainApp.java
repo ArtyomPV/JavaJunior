@@ -8,7 +8,7 @@ public class MainApp {
     private final static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         uMarket market = new uMarket();
-        System.out.println("Добро пожаловать в магазин U-Market");
+        System.out.println("Добро пожаловать     в магазин U-Market");
 
         while(true)
         {

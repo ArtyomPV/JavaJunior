@@ -73,25 +73,27 @@ public class Cart<T extends Food> {
             if (!proteins && food.getProteins()) proteins = true;
             else if (!fats && food.getFats()) fats = true;
             else if (!carbohydrates && food.getCarbohydrates()) carbohydrates = true;
-            if(proteins && fats && carbohydrates) break;
+            if (proteins && fats && carbohydrates) break;
         }
-        if(proteins && fats && carbohydrates)
-        {
+        if (proteins && fats && carbohydrates) {
             System.out.println("Корзина уже сбалансирована по БЖУ.");
             return;
         }
-        for(var thing: market.getThings(clazz)){
-            if(!proteins && thing.getProteins())
-            {
+        for (var thing : market.getThings(clazz)) {
+            if (!proteins && thing.getProteins()) {
                 proteins = true;
                 foodstuffs.add(thing);
-            } else if (!fats && thing.getFats()) {fats = true; foodstuffs.add(thing);}
-            else if (!carbohydrates && thing.getCarbohydrates()) {carbohydrates = true; foodstuffs.add(thing);}
-            if(proteins && fats && carbohydrates) break;
+            } else if (!fats && thing.getFats()) {
+                fats = true;
+                foodstuffs.add(thing);
+            } else if (!carbohydrates && thing.getCarbohydrates()) {
+                carbohydrates = true;
+                foodstuffs.add(thing);
+            }
+            if (proteins && fats && carbohydrates) break;
 
         }
-        if(proteins && fats && carbohydrates)
-        {
+        if (proteins && fats && carbohydrates) {
             System.out.println("Корзина уже сбалансирована по БЖУ.");
         } else
             System.out.println("Невозможно сбалансировать корзину по БЖУ.");
