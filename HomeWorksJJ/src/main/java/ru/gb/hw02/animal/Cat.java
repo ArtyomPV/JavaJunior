@@ -1,7 +1,6 @@
 package ru.gb.hw02.animal;
 
 import ru.gb.hw02.interfaces.Runner;
-import ru.gb.hw02.interfaces.Sound;
 
 public class Cat extends Animal implements Runner {
 
@@ -13,7 +12,7 @@ public class Cat extends Animal implements Runner {
 
     @Override
     public void makeSound() {
-        System.out.printf("%s says meow-meow", getName());
+        System.out.printf("%s says meow-meow\n", getName());
     }
 
     @Override
