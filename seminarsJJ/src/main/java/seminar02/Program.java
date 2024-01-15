@@ -29,6 +29,10 @@ public class Program {
         //Генерация SQL-запроса на обновление данных
         String updateQuery = queryBuilder.buildUpdateQuery(user);
         System.out.println("Update Query: " + updateQuery);
+
+        //Генерация SQL-запроса на удаление данных
+        String deleteQuery = queryBuilder.buildUpdateQuery(user);
+        System.out.println("Delete Query: " + deleteQuery);
     }
 
     private static void task01() throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException, NoSuchMethodException {
