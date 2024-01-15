@@ -4,11 +4,31 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.UUID;
 
 public class Program {
     public static void main(String[] args) throws NoSuchFieldException, ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
-        task01();
+//        task01();
+        task02();
+    }
 
+    private static void task02() throws IllegalAccessException {
+        Employee user = new Employee("Stanislav", "sample@gmail.com");
+        UUID pk = UUID.randomUUID();
+        QueryBuilder queryBuilder = new QueryBuilder();
+
+        // Генерация SQL запроса для вставки
+        String insertQuery =  queryBuilder.buildInsertQuery(user);
+        System.out.println("Insert query: " + insertQuery);
+
+        String selectQuery = queryBuilder.buildSelectQuery(Employee.class, pk);
+        System.out.println("Select Query: " + selectQuery);
+
+        user.setEmail("sample@mail.ru");
+
+        //Генерация SQL-запроса на обновление данных
+        String updateQuery = queryBuilder.buildUpdateQuery(user);
+        System.out.println("Update Query: " + updateQuery);
     }
 
     private static void task01() throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException, NoSuchMethodException {
