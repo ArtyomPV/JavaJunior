@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7794435e-a88b-4ff5-a98c-eac493537565" name="Changes" comment="JJ Seminar 02 reflection API">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorksJJ/src/main/java/ru/gb/hw03/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorksJJ/src/main/java/ru/gb/hw03/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorksJJ/src/main/java/ru/gb/hw03/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorksJJ/src/main/java/ru/gb/hw03/studentdata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorksJJ/src/main/resources/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecturesJJ/src/main/java/lecture04/Db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecturesJJ/src/main/java/lecture04/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminarsJJ/src/main/java/seminar03/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminarsJJ/src/main/java/seminar03/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminarsJJ/src/main/java/seminar03/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminarsJJ/src/main/java/seminar03/to_do_app/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminarsJJ/src/main/java/seminar03/to_do_app/ToDoListApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminarsJJ/src/main/java/seminar03/to_do_app/ToDoV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminarsJJ/src/main/java/seminar03/to_do_app/ToDoV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorksJJ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorksJJ/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecturesJJ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lecturesJJ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminarsJJ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seminarsJJ/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2aIOCniz9PDA94BmcwfD5GFb4cs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lecture01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture01.Main" />
+      <module name="lecturesJJ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar01.uMarket.MainApp" />
+      <module name="seminarsJJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar01.uMarket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar02.Program" />
+      <module name="seminarsJJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lecture02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture02.Main" />
+      <module name="lecturesJJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.gb.hw01.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.hw01.MainApp" />
+      <module name="HomeWorksJJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.hw01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.lecture02.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ru.gb.hw01.MainApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7794435e-a88b-4ff5-a98c-eac493537565" name="Changes" comment="" />
+      <created>1704002503373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704002503373</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Seminar 01 Introduction to the Stream API">
+      <option name="closed" value="true" />
+      <created>1704303268499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704303268499</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lecture 01 Introduction to the Stream API">
+      <option name="closed" value="true" />
+      <created>1704303298682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704303298682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW 01 init commit Introduction to the Stream API">
+      <option name="closed" value="true" />
+      <created>1704303379136</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704303379136</updated>
+    </task>
+    <task id="LOCAL-00004" summary="HW 01 find average of all Even Numbers in List">
+      <option name="closed" value="true" />
+      <created>1704308580700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704308580700</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JJ lecture 01 lambda and stream API">
+      <option name="closed" value="true" />
+      <created>1704516216280</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704516216281</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JJ lecture 02 Reflection API">
+      <option name="closed" value="true" />
+      <created>1704731674800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704731674800</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JJ Seminar 01 refactor uMarket">
+      <option name="closed" value="true" />
+      <created>1704907396169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704907396169</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JJ Seminar 02 reflection API">
+      <option name="closed" value="true" />
+      <created>1704914157007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704914157007</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Seminar 01 Introduction to the Stream API" />
+    <MESSAGE value="Lecture 01 Introduction to the Stream API" />
+    <MESSAGE value="HW 01 init commit Introduction to the Stream API" />
+    <MESSAGE value="HW 01 find average of all Even Numbers in List" />
+    <MESSAGE value="JJ lecture 01 lambda and stream API" />
+    <MESSAGE value="JJ lecture 02 Reflection API" />
+    <MESSAGE value="JJ Seminar 01 refactor uMarket" />
+    <MESSAGE value="JJ Seminar 02 reflection API" />
+    <option name="LAST_COMMIT_MESSAGE" value="JJ Seminar 02 reflection API" />
+  </component>
+</project>
