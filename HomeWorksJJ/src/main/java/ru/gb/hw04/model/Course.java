@@ -1,9 +1,12 @@
 package ru.gb.hw04.model;
 
+import javax.persistence.*;
 import java.util.Random;
-
+@Entity
+@Table(name = "courses")
 public class Course {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String title;
 

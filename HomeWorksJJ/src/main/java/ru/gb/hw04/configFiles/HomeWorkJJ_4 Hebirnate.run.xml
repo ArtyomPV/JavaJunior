@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="HomeWorkJJ_4 Hebirnate" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ru.gb.hw04.hebirnateDemo.MainApp" />
+    <module name="HomeWorksJJ" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="ru.gb.hw04.hebirnateDemo.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
