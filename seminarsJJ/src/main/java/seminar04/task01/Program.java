@@ -41,14 +41,14 @@ public class Program {
             System.out.println("Create table");
 
             // Вставка данных
-            /*
+
             int count = random.nextInt(5, 11);
 
             for (int i = 0; i < count; i++) {
                 insertData(connection, Student.create());
             }
             System.out.println("Insert data successfully");
-             */
+
 
             // Чтение данных
             Collection<Student> students = readDatabase(connection);
@@ -67,10 +67,10 @@ public class Program {
 
 
             // Удаление данных
-            for (var student: students){
-                deleteData(connection, student.getId());
-            }
-            System.out.println("Delete data successfully");
+//            for (var student: students){
+//                deleteData(connection, student.getId());
+//            }
+//            System.out.println("Delete data successfully");
 
             // Закрытие соединения
             connection.close();
