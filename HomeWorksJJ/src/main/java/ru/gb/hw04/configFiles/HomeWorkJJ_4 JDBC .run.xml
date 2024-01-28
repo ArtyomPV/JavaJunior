@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="HomeWorkJJ_4 JDBC " type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ru.gb.hw04.jbdc.Main" />
+    <module name="HomeWorksJJ" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="ru.gb.hw04.jbdc.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
