@@ -67,14 +67,41 @@ public class ClientManager implements Runnable {
                     closeEverything(socket, bufferedReader, bufferedWriter);
                     break;
                 }
-                //отправка данных всем слушателям
-            broadcastMessage(messageFromClient);
+                String[] messageFromClientArray = messageFromClient.split(" ", 3);
+
+                if(messageFromClientArray[1].charAt(0) == '@'){
+                    // Отправка личных данных
+                    String name = messageFromClientArray[1].substring( 1);
+                    String message = messageFromClientArray[0] + " " + messageFromClientArray[2];
+                    System.out.println("name:" + name);
+                    System.out.println("message" + message);
+                    privateMessage(message, name);
+                } else {
+                    // Отправка данных всем слушателям
+                    broadcastMessage(messageFromClient);
+                }
             } catch (IOException e) {
                 closeEverything(socket, bufferedReader, bufferedWriter);
                 break;
             }
         }
     }
+
+    private void privateMessage(String message, String name) {
+        for (ClientManager client : clients) {
+            try {
+                if (client.name.equals(name) && message != null) {
+                    client.bufferedWriter.write(message);
+                    client.bufferedWriter.newLine();
+                    client.bufferedWriter.flush();
+                }
+            }
+            catch (IOException e) {
+                closeEverything(socket, bufferedReader, bufferedWriter);
+            }
+        }
+    }
+
 
     private void broadcastMessage(String messageFromClient) {
         for(ClientManager client: clients){
